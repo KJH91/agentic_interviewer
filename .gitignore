@@ -1,0 +1,33 @@
+# Local development notes — not for version control
+memory/
+CLAUDE.md
+
+# Session data — user-specific, can be large
+sessions/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

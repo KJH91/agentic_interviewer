@@ -1,0 +1,10 @@
+services:
+  interviewer:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app:/app/app
+      - ./sessions:/app/sessions
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
